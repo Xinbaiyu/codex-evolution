@@ -1,0 +1,55 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" rx="32" fill="#F7FAFC"/>
+  <rect x="58" y="54" width="1164" height="612" rx="36" fill="white" stroke="#D8E2EE" stroke-width="2"/>
+  <text x="92" y="112" fill="#122033" font-family="Arial, sans-serif" font-size="40" font-weight="800">codex-evolution 工作流</text>
+  <text x="94" y="148" fill="#667993" font-family="Arial, sans-serif" font-size="21">从用户 prompt 到项目级经验，再到 SessionStart 自动注入</text>
+
+  <g filter="url(#shadow)">
+    <rect x="96" y="218" width="210" height="136" rx="24" fill="#EAF4FF" stroke="#8CC4FF"/>
+    <rect x="374" y="218" width="210" height="136" rx="24" fill="#ECFFF7" stroke="#79E4B5"/>
+    <rect x="652" y="218" width="210" height="136" rx="24" fill="#FFF6E8" stroke="#F5C26B"/>
+    <rect x="930" y="218" width="210" height="136" rx="24" fill="#F1EDFF" stroke="#B8A7FF"/>
+  </g>
+
+  <text x="132" y="274" fill="#122033" font-family="Arial, sans-serif" font-size="25" font-weight="800">1. Prompt</text>
+  <text x="132" y="310" fill="#496075" font-family="Arial, sans-serif" font-size="18">用户表达偏好</text>
+  <text x="132" y="336" fill="#496075" font-family="Arial, sans-serif" font-size="18">例如：先做系分</text>
+
+  <text x="410" y="274" fill="#122033" font-family="Arial, sans-serif" font-size="25" font-weight="800">2. Hooks</text>
+  <text x="410" y="310" fill="#496075" font-family="Arial, sans-serif" font-size="18">UserPromptSubmit</text>
+  <text x="410" y="336" fill="#496075" font-family="Arial, sans-serif" font-size="18">采集并入库</text>
+
+  <text x="688" y="274" fill="#122033" font-family="Arial, sans-serif" font-size="25" font-weight="800">3. Learn</text>
+  <text x="688" y="310" fill="#496075" font-family="Arial, sans-serif" font-size="18">LLM 提取长期规则</text>
+  <text x="688" y="336" fill="#496075" font-family="Arial, sans-serif" font-size="18">candidate -> active</text>
+
+  <text x="966" y="274" fill="#122033" font-family="Arial, sans-serif" font-size="25" font-weight="800">4. Inject</text>
+  <text x="966" y="310" fill="#496075" font-family="Arial, sans-serif" font-size="18">SessionStart</text>
+  <text x="966" y="336" fill="#496075" font-family="Arial, sans-serif" font-size="18">自动注入上下文</text>
+
+  <path d="M316 286H360" stroke="#7A8FA8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M350 274L362 286L350 298" stroke="#7A8FA8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M594 286H638" stroke="#7A8FA8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M628 274L640 286L628 298" stroke="#7A8FA8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M872 286H916" stroke="#7A8FA8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M906 274L918 286L906 298" stroke="#7A8FA8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="166" y="438" width="948" height="118" rx="28" fill="#122033"/>
+  <text x="212" y="486" fill="#D9F7FF" font-family="Arial, sans-serif" font-size="25" font-weight="800">最终注入给 Codex 的不是聊天记录，而是可复用的项目经验</text>
+  <text x="212" y="528" fill="#AFC3D8" font-family="Arial, sans-serif" font-size="21">例如：复杂需求先使用 OpenSpec 做系统分析，再进入实现阶段。</text>
+
+  <rect x="244" y="592" width="792" height="40" rx="20" fill="#ECFFF7" stroke="#79E4B5"/>
+  <text x="305" y="619" fill="#167A53" font-family="Arial, sans-serif" font-size="20" font-weight="700">本地优先，不默认改写 AGENTS.md，客户端和命令行都能生效</text>
+
+  <defs>
+    <filter id="shadow" x="76" y="198" width="1084" height="176" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="8"/>
+      <feGaussianBlur stdDeviation="10"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.07 0 0 0 0 0.12 0 0 0 0 0.2 0 0 0 0.12 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+</svg>

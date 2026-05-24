@@ -11,8 +11,8 @@
   "files": [
     "src",
     "templates",
-    "docs/assets/csdn-cover.png",
-    "docs/assets/csdn-architecture.png",
+    "assets/csdn-cover.png",
+    "assets/csdn-architecture.png",
     "README.md",
     "CHANGELOG.md",
     "LICENSE",

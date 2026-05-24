@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/codex-evolution)](https://www.npmjs.com/package/codex-evolution)
 [![license](https://img.shields.io/npm/l/codex-evolution)](./LICENSE)
 
-![codex-evolution：让 Codex 拥有项目记忆](https://raw.githubusercontent.com/Xinbaiyu/codex-evolution/main/docs/assets/csdn-cover.png)
+![codex-evolution：让 Codex 拥有项目记忆](https://raw.githubusercontent.com/Xinbaiyu/codex-evolution/main/assets/csdn-cover.png)
 
 给 Codex 加一层看得见、管得住的项目记忆。
 

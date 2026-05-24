@@ -1,0 +1,38 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" rx="36" fill="#09111F"/>
+  <path d="M0 0H1280V720H0V0Z" fill="url(#bg)"/>
+  <circle cx="1070" cy="120" r="220" fill="#2EE6A6" opacity="0.18"/>
+  <circle cx="160" cy="610" r="260" fill="#5AA9FF" opacity="0.18"/>
+  <path d="M109 493C248 334 332 349 453 407C574 465 639 421 728 293C817 165 936 140 1156 220" stroke="#A5FFD6" stroke-width="3" stroke-linecap="round" opacity="0.45"/>
+  <rect x="84" y="88" width="1112" height="544" rx="34" fill="#0F1B2D" fill-opacity="0.82" stroke="#29415F"/>
+  <rect x="134" y="132" width="392" height="456" rx="26" fill="#111F34" stroke="#345174"/>
+  <rect x="178" y="182" width="304" height="54" rx="14" fill="#172A45"/>
+  <rect x="178" y="262" width="240" height="26" rx="13" fill="#5AA9FF" opacity="0.9"/>
+  <rect x="178" y="306" width="286" height="26" rx="13" fill="#5AA9FF" opacity="0.55"/>
+  <rect x="178" y="350" width="214" height="26" rx="13" fill="#5AA9FF" opacity="0.38"/>
+  <rect x="178" y="440" width="286" height="88" rx="20" fill="#0B1424" stroke="#29415F"/>
+  <path d="M214 484H428" stroke="#2EE6A6" stroke-width="8" stroke-linecap="round"/>
+  <path d="M214 512H366" stroke="#2EE6A6" stroke-width="8" stroke-linecap="round" opacity="0.55"/>
+  <rect x="592" y="144" width="514" height="120" rx="28" fill="#10233A" stroke="#345174"/>
+  <rect x="592" y="300" width="514" height="120" rx="28" fill="#10233A" stroke="#345174"/>
+  <rect x="592" y="456" width="514" height="120" rx="28" fill="#10233A" stroke="#345174"/>
+  <path d="M548 204H592" stroke="#A5FFD6" stroke-width="5" stroke-linecap="round"/>
+  <path d="M548 360H592" stroke="#A5FFD6" stroke-width="5" stroke-linecap="round"/>
+  <path d="M548 516H592" stroke="#A5FFD6" stroke-width="5" stroke-linecap="round"/>
+  <text x="178" y="217" fill="#EAF4FF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Codex</text>
+  <text x="638" y="192" fill="#EAF4FF" font-family="Arial, sans-serif" font-size="30" font-weight="700">UserPromptSubmit</text>
+  <text x="638" y="230" fill="#A8BED8" font-family="Arial, sans-serif" font-size="20">收集项目协作偏好</text>
+  <text x="638" y="348" fill="#EAF4FF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Local SQLite Memory</text>
+  <text x="638" y="386" fill="#A8BED8" font-family="Arial, sans-serif" font-size="20">沉淀 candidate / active 经验</text>
+  <text x="638" y="504" fill="#EAF4FF" font-family="Arial, sans-serif" font-size="30" font-weight="700">SessionStart Injection</text>
+  <text x="638" y="542" fill="#A8BED8" font-family="Arial, sans-serif" font-size="20">下一次会话自动注入上下文</text>
+  <text x="142" y="670" fill="#EAF4FF" font-family="Arial, sans-serif" font-size="52" font-weight="800">让 Codex 拥有项目记忆</text>
+  <text x="780" y="670" fill="#A5FFD6" font-family="Arial, sans-serif" font-size="26" font-weight="700">codex-evolution</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10294A"/>
+      <stop offset="0.48" stop-color="#08111F"/>
+      <stop offset="1" stop-color="#112D2A"/>
+    </linearGradient>
+  </defs>
+</svg>
