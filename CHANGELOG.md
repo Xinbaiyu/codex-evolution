@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.21
+
+- 将 README 与 npm 包展示图片从 `docs/assets` 迁移到顶层 `assets`
+- npm 发布文件改为包含 `assets/csdn-cover.png` 与 `assets/csdn-architecture.png`
+- 本地 Git 仓库忽略 `docs/` 与 `tests/`，避免公开仓库带出测试路径或文档草稿
+
 ## 0.1.20
 
 - 自动学习 watcher 默认升级为全局模式：扫描所有有 pending prompt 的项目，并按 `project_key` 分别执行学习

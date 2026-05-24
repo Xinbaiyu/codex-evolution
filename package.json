@@ -1,6 +1,6 @@
 {
   "name": "codex-evolution",
-  "version": "0.1.20",
+  "version": "0.1.21",
   "description": "Project memory and SessionStart context injection for Codex.",
   "type": "module",
   "preferGlobal": true,
