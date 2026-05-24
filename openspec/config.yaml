@@ -1,0 +1,38 @@
+schema: spec-driven
+created: 2026-05-15
+context: |
+  Purpose:
+  构建一个面向 Codex 的轻量自学习系统。
+
+  System:
+  通过 Codex hooks 直接采集用户 prompt，按周期将“新 prompt 批次 + 当前经验库”交给 LLM 重整，持续产出可衰减、可演化的用户经验。
+
+  Goals:
+  - 不依赖 claude-mem 或外部会话扫描
+  - 只使用 Codex 原生 hooks 作为首版数据入口
+  - 将经验作为有生命周期的状态而不是一次性摘要
+  - 为后续实现保留清晰的 OpenSpec 变更记录
+
+  Non-Goals:
+  - 首版不采集 assistant reply、tool calls、文件 diff
+  - 首版不建设复杂 Web UI
+  - 首版不做多租户或跨设备同步
+
+  Conventions:
+  - 使用 TypeScript
+  - 优先不可变数据模型
+  - 配置与数据结构保持显式、可迁移
+  - 事件采集与经验重整分层
+  - LLM 负责语义归并与排序
+  - 时间衰减、生命周期状态迁移由程序规则控制
+
+  Domain Context:
+  - prompt event: 用户一次输入的原始事件
+  - experience: 从多个 prompt 中提炼出的稳定偏好或工作模式
+  - reconciliation: 用“已有经验 + 新 prompt”对经验库做一次重整
+  - decay: 基于 last_seen_at 的时间衰减
+
+  Important Constraints:
+  - 必须能记录经验的 first_seen_at 和 last_seen_at
+  - 本轮未命中的旧经验不能被错误刷新时间
+  - 经验库需要支持长期自然淡出，而不是永久累积

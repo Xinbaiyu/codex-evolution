@@ -1,0 +1,52 @@
+{
+  "name": "codex-evolution",
+  "version": "0.1.20",
+  "description": "Project memory and SessionStart context injection for Codex.",
+  "type": "module",
+  "preferGlobal": true,
+  "bin": {
+    "codex-evolution": "src/cli.js",
+    "cdxe": "src/cli.js"
+  },
+  "files": [
+    "src",
+    "templates",
+    "docs/assets/csdn-cover.png",
+    "docs/assets/csdn-architecture.png",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "config.example.json"
+  ],
+  "scripts": {
+    "start": "node src/cli.js",
+    "demo:e2e": "node src/cli.js demo:experience",
+    "pack:check": "npm pack --dry-run",
+    "postinstall": "node src/postinstall.js",
+    "release:check": "npm test && npm pack --dry-run",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "keywords": [
+    "codex",
+    "codex-hooks",
+    "cli",
+    "agent-memory",
+    "memory",
+    "sqlite"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xinbaiyu/codex-evolution.git"
+  },
+  "homepage": "https://github.com/Xinbaiyu/codex-evolution#readme",
+  "bugs": {
+    "url": "https://github.com/Xinbaiyu/codex-evolution/issues"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

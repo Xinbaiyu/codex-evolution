@@ -1,0 +1,27 @@
+.DS_Store
+
+# Local runtime state
+.codex-evolution-guidance-home/
+.codex-evolution-local/
+.codex-pets/
+.tmp-codex-evolution.db
+.tmp-codex-evolution.db-shm
+.tmp-codex-evolution.db-wal
+.tmp-state.json
+
+# Package manager caches and local global installs
+.npm-cache/
+.npm-global/
+
+# Search/debug artifacts
+.search-results/
+
+# Public repository exclusions
+docs/
+tests/
+
+# Packaged tarballs
+*.tgz
+
+# Common local dependencies
+node_modules/
